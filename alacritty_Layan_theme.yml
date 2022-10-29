@@ -1,0 +1,28 @@
+# Layan alacritty
+colors:
+  # Default colors
+  primary:
+    background: '0x31313a'
+    foreground: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x31313a'
+    red:     '0xFF5252'
+    green:   '0xACE894'
+    yellow:  '0xFFBA08'
+    blue:    '0x5657f5'
+    magenta: '0x7C4DFF'
+    cyan:    '0x4FC3F7'
+    white:   '0xE8EBF7'
+
+  # Bright colors
+  bright:
+    black:   '0x000000'
+    red:     '0xff8686'
+    green:   '0xE5FFDE'
+    yellow:  '0xFAF8D4'
+    blue:    '0x9e9ff9'
+    magenta: '0xa382ff'
+    cyan:    '0x42A5F5'
+    white:   '0xffffff'

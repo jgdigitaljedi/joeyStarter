@@ -1,0 +1,12 @@
+# Mouse button 9 (or whatever number xev told you)
+    "xdotool set_desktop $(expr $(xdotool get_desktop) - 1)"
+        b:9
+# Mouse button 8 (or whatever number xev told you)
+    "xdotool set_desktop $(expr $(xdotool get_desktop) + 1)"
+        b:8
+# Horizontal scroll wheel left (button 6)
+    "xte 'mouseclick 6'"
+	      b:6
+# Horizontal scroll wheel right (button 7)
+    "xte 'mouseclick 7'"
+	      b:7 
